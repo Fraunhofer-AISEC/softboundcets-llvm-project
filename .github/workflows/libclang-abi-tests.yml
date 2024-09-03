@@ -127,11 +127,11 @@ jobs:
       - abi-dump
     steps:
       - name: Download baseline
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: build-baseline
       - name: Download latest
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: build-latest
 
